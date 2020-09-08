@@ -1,6 +1,5 @@
 const express = require('express')
 const routes = express.Router()
-const asyncHandler = require('express-async-handler')
 const UserController = require('./controllers/UserController')
 const AddressController = require('./controllers/AddressController')
 const ArticleController = require('./controllers/ArticleController')
